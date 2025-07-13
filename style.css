@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #4a90e2;
+    height: 40px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #4a90e2;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.6;
+    margin-left: 0;
+}
+
+ul {
+    padding-left: 0;
+    margin-top: 20px;
+    text-align: left;
+}
+
+ul li {
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.hobby-image {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hobby-image p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.hobby-image img {
+    border-radius: 10px;
+    width: 300px;
+    height: 180px;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table th, table td {
+    padding: 15px;
+    border: 2px solid rgba(169, 169, 169, 0.6);
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+table th {
+    background-color: #f4f4f4;
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+table td {
+    background-color: #fff;
+    color: #333;
+}
+
+table td img {
+    width: 300px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.link-interesse {
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.link-interesse:hover {
+    color: #00008b;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #00008b;
+}
+
+#mensagem {
+    font-size: 18px;
+    color: #4a90e2;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.subtitulo {
+    font-size: 18px;
+    color: #333;
+    text-align: justify;
+    margin-top: 20px;
+}
